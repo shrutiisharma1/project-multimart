@@ -245,3 +245,30 @@ button.delete ion-icon {
     margin: 10px auto;
   }
 }
+
+.payment-options {
+  list-style: none;
+  padding: 0;
+}
+
+.payment-options li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.payment-options img {
+  margin-right: 10px;
+}
+
+@media (max-width: 576px) {
+  .cart-product-image {
+    max-width: 80px;
+  }
+  .cart-total h2 {
+    font-size: 1.5rem;
+  }
+  .cart-list h3, .cart-list h4 {
+    font-size: 1rem;
+  }
+}
